@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "bienvenida",
+    "title": "Por qué empiezo este cuaderno",
+    "date": "2026-07-29",
+    "excerpt": "Un primer post explicando el porqué de este sitio y qué encontrarás por aquí.",
+    "file": "bienvenida.md",
+    "tags": ["meta"]
+  }
+]
