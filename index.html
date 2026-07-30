@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pablo Díez — ML / Data / GenAI Engineer</title>
+  <meta name="description" content="Bio y blog personal de Pablo Díez, ML/Data/GenAI Engineer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="logo">pablo<span class="dot">.</span>diez</div>
+      <nav>
+        <a href="index.html" class="active">bio</a>
+        <a href="blog.html">blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <!-- ============================================
+           EDITA AQUÍ TU BIO
+           - "eyebrow": la línea corta encima del nombre
+           - "name": tu nombre
+           - "role": tu puesto / a qué te dedicas
+           - "bio-text": 2-3 párrafos sobre ti
+           - "now-block": en qué andas metido ahora mismo
+           - "links-row": tus enlaces (email, github, linkedin, etc.)
+           ============================================ -->
+
+      <p class="eyebrow">disponible para charlar de ML, datos y fotografía</p>
+      <h1 class="name">Pablo Díez</h1>
+      <p class="role">ML / Data / GenAI Engineer</p>
+
+      <div class="bio-text">
+        <p>
+          Trabajo diseñando y manteniendo sistemas de datos y machine learning en
+          producción — desde pipelines en Databricks hasta la puesta en marcha de
+          modelos con MLflow. Me interesa la parte menos glamurosa de la IA: hacer
+          que las cosas funcionen de forma fiable, reproducible y mantenible.
+        </p>
+        <p>
+          Fuera del trabajo, disparo fotos con una Sony a6300 — viajes, naturaleza,
+          calle — y últimamente ando entrenando para Hyrox después de años corriendo.
+          Este sitio es un cuaderno abierto: apuntes técnicos, cosas que aprendo y,
+          de vez en cuando, fotos de algún viaje.
+        </p>
+      </div>
+
+      <div class="now-block">
+        <strong>ahora mismo</strong><br>
+        Editando fotos RAW de un viaje a Tanzania en darktable · preparando dos
+        módulos de un ciclo de FP sobre IA y Big Data para el próximo curso.
+      </div>
+
+      <div class="links-row">
+        <a href="mailto:tu@email.com">email</a>
+        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener">github</a>
+        <a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">linkedin</a>
+        <a href="blog.html">leer el blog →</a>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Pablo Díez</span>
+      <span>Madrid, España</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

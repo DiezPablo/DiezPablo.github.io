@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Pablo Díez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <div class="logo">pablo<span class="dot">.</span>diez</div>
+      <nav>
+        <a href="index.html">bio</a>
+        <a href="blog.html" class="active">blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h1 class="page-title">Blog</h1>
+      <p class="page-subtitle">Notas y apuntes, en orden cronológico.</p>
+
+      <div id="tag-filter" class="tag-filter"></div>
+
+      <div id="log" class="log">
+        <p class="log-loading">Cargando entradas…</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© <span id="year"></span> Pablo Díez</span>
+      <span>Madrid, España</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/render-blog.js"></script>
+</body>
+</html>
