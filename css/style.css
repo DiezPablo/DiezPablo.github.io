@@ -224,23 +224,13 @@ h1.name {
   font-family: var(--font-mono);
   font-size: 17px;
   font-weight: 600;
-  margin: 0 0 8px;
+  margin: 0;
 }
 
 .exp-role {
   font-weight: 400;
   color: var(--color-text-muted);
 }
-
-.exp-points {
-  margin: 0;
-  padding-left: 18px;
-  color: var(--color-text-muted);
-  font-size: 15px;
-  max-width: 60ch;
-}
-
-.exp-points li { margin-bottom: 4px; }
 
 .stack {
   display: grid;
