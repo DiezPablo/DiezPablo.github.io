@@ -50,6 +50,10 @@ Si un post no tiene tags, simplemente omite el campo `"tags"` o déjalo como `[]
 
 Abre `index.html` y edita directamente el texto entre las etiquetas `<h1>`, `<p class="role">`, `<div class="bio-text">`, `<div class="now-block">` y `<div class="links-row">`. Está todo comentado en el propio archivo para que sea fácil localizarlo.
 
+## Si cambias el CSS
+
+GitHub Pages deja que el navegador guarde `css/style.css` en caché unos minutos, así que puedes ver el HTML nuevo con el estilo viejo. Cuando edites `css/style.css`, sube el número de versión del enlace en `index.html`, `blog.html` y `post.html` (`css/style.css?v=2` → `?v=3`).
+
 ## Cómo publicarlo gratis en GitHub Pages
 
 1. Crea una cuenta en [github.com](https://github.com) si no tienes.
